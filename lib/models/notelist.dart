@@ -25,9 +25,14 @@ class Note extends StatelessWidget{
       ),
       extendBodyBehindAppBar: false,
       body: ListView.separated(
-        itemBuilder: itemBuilder, 
-        separatorBuilder: separatorBuilder, 
-        itemCount: itemCount),
+        itemBuilder: (context, index) {
+          ListTile(
+            title: ,
+          );
+        }, 
+        separatorBuilder: (context, index) => const Divider(height: 10, color: Colors.white,), 
+        itemCount: itemCount,
+      ),
     );
   }
 }
