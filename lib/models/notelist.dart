@@ -23,15 +23,28 @@ class Note extends StatelessWidget{
         onPressed: (){},
         child: const Icon(Iconsax.add),
       ),
-      extendBodyBehindAppBar: false,
+      //extendBodyBehindAppBar: false,
       body: ListView.separated(
         itemBuilder: (context, index) {
           ListTile(
-            title: ,
+            title:  Text(
+              "Hi dude",
+              style: GoogleFonts.poppins(
+                fontSize: 15,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            subtitle: Text(
+              "Best day on earth yeaaa",
+              style: GoogleFonts.poppins(
+                fontSize: 10,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           );
         }, 
         separatorBuilder: (context, index) => const Divider(height: 10, color: Colors.white,), 
-        itemCount: itemCount,
+        itemCount: 40,
       ),
     );
   }
