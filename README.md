@@ -1,6 +1,7 @@
 # noteapp
 
-- Author: Josoa886
+- **Author:** [Josoa886](https://github.com/Josoa886)
+- **Type:** Sample 
 - It's just a simple test of an application using the REST API
 
 
